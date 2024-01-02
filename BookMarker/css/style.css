@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(241, 233, 219);
+   
+}
+.website h1{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    position: relative;
+ width: 250px;
+}
+.website h1::after{
+    content: '';
+    background-color: #ffc107;
+    position: absolute;
+    width: 100%;
+    height:25%;
+    left: 0;
+     bottom: 0;
+    z-index: -1;
+    transition: 1s;
+
+}
+.website h1:hover::after {
+height: 70%;
+}
+.w-20{
+    width: 20%;
+}
+
+.line {
+    border-bottom: 2px dotted #000;
+ }
+ .website h2 {
+      background: linear-gradient(to right, rgb(34, 179, 34),rgb(244, 159, 0),rgb(235, 8, 8)); 
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+
+ 
